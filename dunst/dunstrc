@@ -1,0 +1,62 @@
+[global]
+    follow = mouse
+    indicate_hidden = true
+    enable_posix_regex = true
+
+    width = 276
+    offset = 4x4
+
+    separator_height = 1
+
+    padding = 8
+    horizontal_padding = 8
+    text_icon_padding = 0
+    frame_width = 1
+
+    frame_color = "#839496"
+    separator_color = frame
+
+    sort = true
+    idle_threshold = 120
+    font = IBM Plex Sans 10
+    line_height = 0
+    markup = full
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 60
+    word_wrap = true
+    stack_duplicates = true
+    hide_duplicate_count = false
+
+    show_indicators = true
+
+    min_icon_size = 0
+    max_icon_size = 64
+    icon_corners = all
+    icon_corner_radius = 0
+
+    enable_recursive_icon_lookup = true
+    icon_theme = Solarized-Dark-Blue-Numix
+
+    dmenu = /usr/bin/wofi -d dunst:
+    browser = /usr/bin/vivaldi --new-tab
+
+    title = Dunst
+    class = Dunst
+
+    corner_radius = 0
+    corners = all
+    timeout = 7
+
+[urgency_low]
+    background = "#002b36"
+    foreground = "#839496"
+
+[urgency_normal]
+    background = "#002b36"
+    foreground = "#839496"
+
+[urgency_critical]
+    background = "#002b36"
+    foreground = "#839496"
+    frame_color = "#dc322f"
