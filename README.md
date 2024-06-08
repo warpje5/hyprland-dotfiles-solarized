@@ -1,7 +1,9 @@
 # hyprland-dotfiles-solarized
 hyprland wm dotfiles, dark solarized themed
 
-![image](https://github.com/warpje5/hyprland-dotfiles-solarized/assets/125624948/d91d4eea-021d-4dc9-9a6d-15d260697952)
+![image](https://github.com/warpje5/hyprland-dotfiles-solarized/assets/125624948/f616c58a-9acf-4911-b61c-5e5b77b7c72d)
+
+08/06 Updated rice. More thick and round borders. Different fonts, now its JetBrainsMono Nerd Font and Inter. Added some colors to waybar.
 
 gtk-theme - NumixSolarizedDarkBlue
 
