@@ -1,8 +1,8 @@
 window {
-    font-family: BlexMono Nerd Font;
+    font-family: JetBrainsMono Nerd Font;
     font-size: 13pt;
     color: #839496; /* text */
-    background-color: rgba(0, 43, 54, 0.86);
+    background-color: rgba(0, 43, 54, 0.66);
 }
 
 button {
@@ -10,9 +10,9 @@ button {
     background-position: center;
     background-size: 50%;
     border-style: solid;
-    border-radius: 0px;
-    border-width: 1px;
-    border-color: #b58900;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: #839496;
     background-color: rgba(0, 43, 54, 0.86);
     margin: 2px;
     transition:
@@ -21,13 +21,15 @@ button {
 }
 
 button:hover {
-    background-color: rgba(211, 54, 130, 0.92);
+    background-color: rgba(38, 139, 210, 0.92);
     color: #002b36;
+    border-color: #b58900;
 }
 
 button:focus {
     background-color: #839496;
     color: #002b36;
+    border-color: #b58900;
 }
 
 #lock {
