@@ -1,7 +1,7 @@
 * {
     border: none;
-    font-family: BlexMono Nerd Font;
-    font-weight: 600;
+    font-family: JetBrainsMono Nerd Font;
+    font-weight: 800;
     font-size: 13px;
     min-height: 0;
 }
@@ -14,10 +14,10 @@ window#waybar {
 
 tooltip {
     background: rgba(0, 43, 54, 0.9);
-    border-radius: 0px;
-    border-width: 1px;
+    border-radius: 6px;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
+    border-color: #586e75;
     color: #839496;
 }
 
@@ -27,24 +27,24 @@ tooltip {
     background: none;
     box-shadow: inherit;
     text-shadow: inherit;
-    margin-top: -3px;
-    margin-bottom: -3px;
+    margin-top: -5px;
+    margin-bottom: -4px;
 }
 
 #workspaces button.active {
-    color: #839496;
+    color: #cb4b16;
 }
 
 #workspaces button.persistent {
-    color: #465a61;
+    color: #d33682;
 }
 
 #workspaces button.empty {
-    color: #073642;
+    color: #586e75;
 }
 
 #workspaces button:hover {
-    color: #d33682;
+    color: #268bd2;
 }
 
 #workspaces button.special {
@@ -52,7 +52,7 @@ tooltip {
 }
 
 #workspaces button.visible {
-    color: #839496;
+    color: #859900;
 }
 
 #workspaces button.urgent {
@@ -82,92 +82,92 @@ tooltip {
 
 #tray {
     background: rgba(0, 43, 54, 0.9);
-    border-radius: 0px;
-    border-width: 1px;
+    border-radius: 7px;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
+    border-color: #586e75;
     margin-right: 4px;
     margin-left: 4px;
     color: #839496;
-    padding-left: 10px;
-    padding-right: 8px;
+    padding-left: 8px;
+    padding-right: 6px;
 }
 
 #workspaces {
     background: rgba(0, 43, 54, 0.9);
-    border-radius: 0px;
-    border-width: 1px;
+    border-radius: 7px;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
+    border-color: #586e75;
     margin-left: 4px;
-    padding-right: 6px;
-    padding-left: 4px;
+    padding-right: 4px;
+    padding-left: 0px;
 }
 
 #language {
     background: rgba(0, 43, 54, 0.9);
-    color: #839496;
-    border-width: 1px;
+    color: #268bd2;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
+    border-color: #586e75;
     border-right: 0px;
-    border-radius: 0px;
+    border-radius: 7px 0px 0px 7px;
     min-width: 24px;
 }
 
 #keyboard-state {
     background: none;
-    color: #839496;
+    color: #b58900;
     border: none;
 }
 
 #custom-updates {
     background: rgba(0, 43, 54, 0.9);
-    color: #839496;
-    border-width: 1px;
+    color: #268bd2;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
-    border-radius: 0px;
+    border-color: #586e75;
+    border-radius: 0px 7px 7px 0px;
     border-left: 0px;
 }
 
 #window {
     background: rgba(0, 43, 54, 0.9);
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
-    border-radius: 0px;
+    border-color: #586e75;
+    border-radius: 7px;
     margin-left: 30px;
     margin-right: 30px;
 }
 
 #custom-playerctl {
     background: rgba(0, 43, 54, 0.9);
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
+    border-color: #586e75;
     border-right: 0px;
     border-left: 0px;
-    color: #839496;
+    color: #b58900;
 }
 
 #cava {
     background: rgba(0, 43, 54, 0.9);
-    border-radius: 0px;
-    border-width: 1px;
+    border-radius: 7px 0px 0px 7px;
+    border-width: 2px;
     border-style: solid;
-    color: #839496;
-    border-color: #839496;
+    color: #cb4b16;
+    border-color: #586e75;
     border-right: 0px;
     margin-left: 4px;
 }
 
 #clock {
     background: rgba(0, 43, 54, 0.9);
-    color: #839496;
-    border-width: 1px;
+    color: #859900;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
+    border-color: #586e75;
     border-radius: 0px;
     border-right: 0px;
     border-left: 0px;
@@ -181,10 +181,10 @@ tooltip {
 
 #pulseaudio {
     background: rgba(0, 43, 54, 0.9);
-    color: #839496;
-    border-width: 1px;
+    color: #cb4b16;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
+    border-color: #586e75;
     border-right: 0px;
     border-left: 0px;
     border-radius: 0px;
@@ -192,11 +192,11 @@ tooltip {
 
 #pulseaudio.microphone {
     background: rgba(0, 43, 54, 0.9);
-    color: #839496;
-    border-width: 1px;
+    color: #cb4b16;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
-    border-radius: 0px;
+    border-color: #586e75;
+    border-radius: 0px 7px 7px 0px;
     border-left: 0px;
     margin-right: 4px;
 }
@@ -204,45 +204,45 @@ tooltip {
 #battery {
     background: rgba(0, 43, 54, 0.9);
     color: #839496;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
-    border-radius: 0px;
+    border-color: #586e75;
+    border-radius: 7px;
     border-right: 0px;
     border-left: 0px;
 }
 
 #custom-weather {
     background: rgba(0, 43, 54, 0.9);
-    color: #839496;
-    border-radius: 0px;
-    border-width: 1px;
+    color: #b58900;
+    border-radius: 7px 0px 0px 7px;
+    border-width: 2px;
     border-right: 0px;
     border-style: solid;
-    border-color: #839496;
+    border-color: #586e75;
     margin-left: 4px;
 }
 
 #idle_inhibitor {
     background: rgba(0, 43, 54, 0.9);
     color: #839496;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
+    border-color: #586e75;
     border-left: 0px;
-    border-radius: 0px;
+    border-radius: 7px;
     min-width: 18px;
 }
 
 #custom-power {
     background: rgba(0, 43, 54, 0.9);
-    color: #839496;
-    border-width: 1px;
+    color: #dc322f;
+    border-width: 2px;
     border-style: solid;
-    border-color: #839496;
-    border-radius: 0px;
+    border-color: #586e75;
+    border-radius: 0px 7px 7px 0px;
     border-left: 0px;
     margin-left: 0px;
     margin-right: 4px;
-    padding-right: 14px;
+    padding-right: 12px;
 }
