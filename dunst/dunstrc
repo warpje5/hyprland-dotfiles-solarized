@@ -3,22 +3,22 @@
     indicate_hidden = true
     enable_posix_regex = true
 
-    width = 276
+    width = 271
     offset = 4x4
 
-    separator_height = 1
+    separator_height = 2
 
     padding = 8
     horizontal_padding = 8
     text_icon_padding = 0
-    frame_width = 1
+    frame_width = 2
 
-    frame_color = "#839496"
+    frame_color = "#586e75"
     separator_color = frame
 
     sort = true
     idle_threshold = 120
-    font = IBM Plex Sans 10
+    font = Inter 10
     line_height = 0
     markup = full
     alignment = left
@@ -33,7 +33,7 @@
     min_icon_size = 0
     max_icon_size = 64
     icon_corners = all
-    icon_corner_radius = 0
+    icon_corner_radius = 7
 
     enable_recursive_icon_lookup = true
     icon_theme = Solarized-Dark-Blue-Numix
@@ -44,7 +44,7 @@
     title = Dunst
     class = Dunst
 
-    corner_radius = 0
+    corner_radius = 7
     corners = all
     timeout = 7
 
