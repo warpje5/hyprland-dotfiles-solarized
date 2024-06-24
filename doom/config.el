@@ -23,8 +23,8 @@
 ;;
 ;;(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
 ;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
-(setq doom-font "JetBrainsMono Nerd Font-13")
-(setq doom-variable-pitch-font "Inter-13")
+(setq doom-font "VictorMono Nerd Font-13")
+(setq doom-variable-pitch-font "IBM Plex Sans-13")
 (setq doom-serif-font "IBM Plex Serif-13")
 
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
@@ -79,10 +79,13 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+;; adds scroll option
 (setq which-key-use-C-h-commands 't)
 
+;; removes compile warning at launch
 (setq byte-compile-warnings '(cl-functions))
 
+;; debugger config
 (after! dap-mode (setq dap-python-debugger 'debugpy))
 
 (map! :map dap-mode-map
@@ -123,3 +126,4 @@
               org-hide-emphasis-markers t
               org-startup-with-inline-images t
               org-image-actual-width '(300))
+
