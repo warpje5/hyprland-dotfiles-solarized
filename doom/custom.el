@@ -4,9 +4,6 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
 
- ;;Codeium API
- '(codeium/metadata/api_key "877a011d-1224-4a5f-a684-48ee70a854e1")
-
  ;; Indent Guides
  '(highlight-indent-guides-auto-enabled t)
  '(highlight-indent-guides-auto-even-face-perc 40)
