@@ -18,7 +18,7 @@
 
     sort = true
     idle_threshold = 120
-    font = Inter 10
+    font = IBM Plex Sans 11
     line_height = 0
     markup = full
     alignment = left
@@ -33,7 +33,7 @@
     min_icon_size = 0
     max_icon_size = 64
     icon_corners = all
-    icon_corner_radius = 7
+    icon_corner_radius = 6
 
     enable_recursive_icon_lookup = true
     icon_theme = Solarized-Dark-Blue-Numix
